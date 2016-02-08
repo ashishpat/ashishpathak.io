@@ -31,20 +31,20 @@
                 <li class="sidebar-brand"><a href="#about-me"><img alt="Ashish Profile Image" src="static/images/profile.jpg" style="width: 45px; border-radius: 100%;"><span style="padding-left: 40px; font-weight: bold;">About Me</span></a></li>
             </ul>
             <ul class="sidebar-nav" style="bottom: 0; top: auto; padding-bottom: 10%;">
-                <li class="sidebar-brand" style="padding-left: 10px"><a href="#research"><img alt="Ashish Profile Image" src="static/images/icons/research.png" style="width: 35px;"><span style="padding-left: 45px; font-weight: bold;">Research</span></a></li>
-                <li class="sidebar-brand" style="padding-left: 10px"><a href="#about-me"><img alt="Ashish Profile Image" src="static/images/icons/code.png" style="width: 35px;"><span style="padding-left: 45px; font-weight: bold;">Projects</span></a></li>
-                <li class="sidebar-brand" style="padding-left: 10px"><a href="#about-me"><img alt="Ashish Profile Image" src="static/images/icons/contact.png" style="width: 35px;"><span style="padding-left: 45px; font-weight: bold;">Contact Me</span></a></li>
+                <li class="sidebar-brand" style="padding-left: 10px"><a href="#research" title="Research"><img alt="Resarch Icon" src="static/images/icons/research.png" style="width: 35px;"><span style="padding-left: 45px; font-weight: bold;">Research</span></a></li>
+                <li class="sidebar-brand" style="padding-left: 10px"><a href="#projects" title="Projects"><img alt="Code Project Icon" src="static/images/icons/code.png" style="width: 35px;"><span style="padding-left: 45px; font-weight: bold;">Projects</span></a></li>
+                <li class="sidebar-brand" style="padding-left: 10px"><a href="mailto:ashish@ashishpathak.io" title="Contact Me"><img alt="Contact Icon" src="static/images/icons/contact.png" style="width: 35px;"><span style="padding-left: 45px; font-weight: bold;">Contact Me</span></a></li>
             </ul>
         </div><!--#/sidebar-wrapper-->
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-5 col-md-8 col-sm-12 col-sm-12" style="padding: 2%;">
+                    <div class="col-lg-5 col-md-8 col-sm-12 col-sm-12">
                         <a href="#" id="small-screen-toggle" class="menu-toggle"><img  alt="Ashish Profile Image" src="static/images/icons/hamburger.png" style="width: 45px;"></a>
                         <section id="about-me">
                             <h1><strong>Ashish Pathak</strong></h1>
                             <br>
-                            <p style="font-size: 1.15em;">
+                            <p>
                                 I am a recent graduate from State University of New York at Plattsburgh where I worked on projects ranging from vertical search engine to mobile application development. 
                                 In 2015, I joined the UVA School of Medicine as a Web Application Developer.
                                 <br><br>
@@ -58,24 +58,55 @@
                         <section id="research">
                             <h2><strong>Research</strong></h2>
                             <br>
-                            <p style="font-size:  1.15em">
+                            <p>
                                 How is searching for information in an online health community the same as searching the rest of the Web? 
                                 Of course, it is not at all the same! At <a href="http://plattsburgh.edu" style="text-decoration: underline;" ><strong>State University of New York at Plattsburgh</strong></a>,
                                 we are confident there is a better way to bring you together with the community resources you need.
                                 <br><br>
+                                Online discussion communities are becoming increasingly popular among web users, where an extensive amount of discussion and commenting takes place. However, it is diﬃcult to search these conversations as search engines are not optimized for the conversation-structure of online communities. In this paper, we purpose a method of ranking search results based on the conversation-structure and using it to optimize a domain-speciﬁc search engine. To solve this problem, we design several extension to a general-purpose search engine, focusing on maintaining the conversation-structure throughout the extraction, calculating and ranking of search results. Results from our experiments show that users can ﬁnd optimized search results quicker as it is ranked higher than keyword based results.
                             </p>
-                            <p style="font-size: 1.3em;"><a href="static/documents/AshishPathak-Resume.pdf" style="text-decoration: underline;" ><strong>More on research</strong></a></p>
+                            <p style="font-size: 1.3em;"><a href="static/documents/SearchEngineOptimizationforThreaded-Conversations" style="text-decoration: underline;" title="Search Engine Optimization for Threaded-Conversation" ><strong>Download Research Paper</strong></a></p>
                         </section>
-                        <section id="research">
-                            <h2><strong>Research</strong></h2>
+                        <section id="projects">
+                            <h2><strong>Projects</strong></h2>
                             <br>
-                            <p style="font-size:  1.15em">
-                                How is searching for information in an online health community the same as searching the rest of the Web? 
-                                Of course, it is not at all the same! At <a href="http://plattsburgh.edu" style="text-decoration: underline;" ><strong>State University of New York at Plattsburgh</strong></a>,
-                                we are confident there is a better way to bring you together with the community resources you need.
-                                <br><br>
-                            </p>
-                            <p style="font-size: 1.3em;"><a href="static/documents/AshishPathak-Resume.pdf" style="text-decoration: underline;" ><strong>More on research</strong></a></p>
+                            <div class="project-item">
+                                <p>
+                                    <strong>SportsConnect</strong>
+                                    <br>
+                                    Current Project
+                                </p>
+                                <hr/>
+                                <p>
+                                    A Social network app that allows users to find sports location and connect with players near them.
+                                    Currently being developed for the Universal Windows Platform (UWP) and Android and iOS using Xamarin.
+                                    It uses Azure Mobile Services for backend and Azure SQL for storage. 
+                                </p>
+                            </div>
+                            <div class="project-item">
+                                <p>
+                                    <strong>LFC Band Tile for Microsoft band</strong>
+                                    <br>
+                                    2015
+                                </p>
+                                <hr/>
+                                <p>
+                                    Liverpool Football Club news feed powered by Bleacher Report RSS for Microsoft Band.
+                                </p>
+                                <p style="font-size: 1.3em;"><a href="https://github.com/ashishpat/lfcbandtile" style="text-decoration: underline;" ><strong>https://github.com/ashishpat/lfcbandtile</strong></a></p>
+                            </div>
+                            <div class="project-item">
+                                <p>
+                                    <strong>System with High Reliability Design (shrd)</strong>
+                                    <br>
+                                    2014
+                                </p>
+                                <hr/>
+                                <p>
+                                    SUNY Plattsburgh team project for Reliable Systems Course that searches for a set of files to find files that contains a provided sentence. 
+                                </p>
+                                <p style="font-size: 1.3em;"><a href="https://github.com/ashishpat/shrd" style="text-decoration: underline;" ><strong>https://github.com/ashishpat/shrd</strong></a></p>
+                            </div>
                         </section>
                     </div>
                 </div>
