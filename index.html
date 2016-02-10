@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Ashish Pathak</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/sidebar.css">
+    <link rel="stylesheet" href="static/less/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- 1. Load libraries -->
+    <!-- IE required polyfills, in this exact order -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+      System.config({
+        packages: {        
+          app: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
+      });
+      System.import('app/main')
+            .then(null, console.error.bind(console));
+    </script>
+  </head>
+  <body>
+    <div id="wrapper" class="toggled">
+        <div id="sidebar-wrapper">
+            <div id="large-screen-toggle" style="width: 90px; background: rgb(46,117,182); height: 70px;">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand menu-toggle" ><a href="#"><img alt="Ashish Profile Image" src="static/images/icons/hamburger.png" style="width: 45px;"></a></li>
+                </ul>   
+            </div>
+            <ul class="sidebar-nav" style="margin-top: 100px;">
+                <li class="sidebar-brand"><a href="#about-me"><img alt="Ashish Profile Image" src="static/images/profile.jpg" style="width: 45px; border-radius: 100%;"><span style="padding-left: 40px; font-weight: bold;">About Me</span></a></li>
+            </ul>
+            <ul class="sidebar-nav" style="bottom: 0; top: auto; padding-bottom: 10%;">
+                <li class="sidebar-brand" style="padding-left: 10px"><a href="#research" title="Research"><img alt="Resarch Icon" src="static/images/icons/research.png" style="width: 35px;"><span style="padding-left: 45px; font-weight: bold;">Research</span></a></li>
+                <li class="sidebar-brand" style="padding-left: 10px"><a href="#projects" title="Projects"><img alt="Code Project Icon" src="static/images/icons/code.png" style="width: 35px;"><span style="padding-left: 45px; font-weight: bold;">Projects</span></a></li>
+                <li class="sidebar-brand" style="padding-left: 10px"><a href="mailto:ashish@ashishpathak.io" title="Contact Me"><img alt="Contact Icon" src="static/images/icons/contact.png" style="width: 35px;"><span style="padding-left: 45px; font-weight: bold;">Contact Me</span></a></li>
+            </ul>
+        </div><!--#/sidebar-wrapper-->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5 col-md-8 col-sm-12 col-sm-12">
+                        <a href="#" id="small-screen-toggle" class="menu-toggle"><img  alt="Ashish Profile Image" src="static/images/icons/hamburger.png" style="width: 45px;"></a>
+                        <section id="about-me">
+                            <h1><strong>Ashish Pathak</strong></h1>
+                            <br>
+                            <p>
+                                I am a recent graduate from State University of New York at Plattsburgh where I worked on projects ranging from vertical search engine to mobile application development. 
+                                In 2015, I joined the UVA School of Medicine as a Web Application Developer.
+                                <br><br>
+                                My background in Computer Science includes undergraduate research optimizing search ranking based on the conversation-structure of an online discussion.
+                                <br><br>
+                                Outside work, my interests include programming for mobile and wearable devices and supporting Liverpool FC. Find out more about me after the break.
+                                <br><br>
+                            </p>
+                            <p style="font-size: 1.3em;"><a href="static/documents/AshishPathak-Resume.pdf" style="text-decoration: underline;" title="Visit SUNY Plattsburgh"><strong>Download Resume</strong></a> &nbsp;<a href="https://github.com/ashishpat/" style="text-decoration: underline;"><strong>GitHub</strong></a></p>
+                        </section>
+                        <section id="research">
+                            <h2><strong>Research</strong></h2>
+                            <br>
+                            <p>
+                                How is searching for information in an online health community the same as searching the rest of the Web? 
+                                Of course, it is not at all the same! At <a href="http://plattsburgh.edu" style="text-decoration: underline;" ><strong>State University of New York at Plattsburgh</strong></a>,
+                                we are confident there is a better way to bring you together with the community resources you need.
+                                <br><br>
+                                Online discussion communities are becoming increasingly popular among web users, where an extensive amount of discussion and commenting takes place. However, it is diﬃcult to search these conversations as search engines are not optimized for the conversation-structure of online communities. In this paper, we purpose a method of ranking search results based on the conversation-structure and using it to optimize a domain-speciﬁc search engine. To solve this problem, we design several extension to a general-purpose search engine, focusing on maintaining the conversation-structure throughout the extraction, calculating and ranking of search results. Results from our experiments show that users can ﬁnd optimized search results quicker as it is ranked higher than keyword based results.
+                            </p>
+                            <p style="font-size: 1.3em;"><a href="static/documents/SearchEngineOptimizationforThreaded-Conversations.pdf" style="text-decoration: underline;" title="Search Engine Optimization for Threaded-Conversation" ><strong>Download Research Paper</strong></a></p>
+                        </section>
+                        <projects>
+                        </projects>
+                    </div>
+                </div>
+            </div>
+        </div><!--#/page-content-wrapper-->
+    </div><!--#/wrapper-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <!-- Menu Toggle Script -->
+    <script>
+    $(".menu-toggle").click(function(e) {
+        //e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+  </body>
+</html>
