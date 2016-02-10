@@ -1,0 +1,640 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 silly mapToRegistry name angular2
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/angular2
+8 silly mapToRegistry name systemjs
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+12 silly mapToRegistry name es6-promise
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+16 silly mapToRegistry name es6-shim
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+20 silly mapToRegistry name reflect-metadata
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+24 silly mapToRegistry name rxjs
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+28 silly mapToRegistry name zone.js
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+32 silly mapToRegistry name concurrently
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/concurrently
+36 silly mapToRegistry name lite-server
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/lite-server
+40 silly mapToRegistry name typescript
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/typescript
+44 verbose request uri https://registry.npmjs.org/angular2
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 10:27:24 PM
+47 verbose request id 761d5722a2420d64
+48 verbose etag "4LY048K673Q3Q5NAI25GGKDN2"
+49 http request GET https://registry.npmjs.org/angular2
+50 verbose request uri https://registry.npmjs.org/systemjs
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 10:27:24 PM
+53 verbose etag "B57QO2CBYA1Z8S5TC2TEOCGOA"
+54 http request GET https://registry.npmjs.org/systemjs
+55 verbose request uri https://registry.npmjs.org/es6-promise
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 10:27:24 PM
+58 verbose etag "8NQ2UOPDXS1O1M7DJ0QP3T0X5"
+59 http request GET https://registry.npmjs.org/es6-promise
+60 verbose request uri https://registry.npmjs.org/es6-shim
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 10:27:24 PM
+63 verbose etag "7SL49GWPGIVZI866EVAQU9PEH"
+64 http request GET https://registry.npmjs.org/es6-shim
+65 verbose request uri https://registry.npmjs.org/reflect-metadata
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 10:27:24 PM
+68 verbose etag "ALR0H8W23JMSDAF0WMBCAYP5O"
+69 http request GET https://registry.npmjs.org/reflect-metadata
+70 verbose request uri https://registry.npmjs.org/rxjs
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 10:27:24 PM
+73 verbose etag "BPAF21TV8ADK44UNBQPY3ATHB"
+74 http request GET https://registry.npmjs.org/rxjs
+75 verbose request uri https://registry.npmjs.org/zone.js
+76 verbose request no auth needed
+77 info attempt registry request try #1 at 10:27:24 PM
+78 verbose etag "3GKWDU3GG4G6O0C93TO8BD8RU"
+79 http request GET https://registry.npmjs.org/zone.js
+80 verbose request uri https://registry.npmjs.org/concurrently
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 10:27:24 PM
+83 verbose etag "CCO1S1BLU0RVXSP2AKD7JIKSU"
+84 http request GET https://registry.npmjs.org/concurrently
+85 verbose request uri https://registry.npmjs.org/lite-server
+86 verbose request no auth needed
+87 info attempt registry request try #1 at 10:27:24 PM
+88 verbose etag "CKHPDNZAMXCT2LQOSK95ASEMV"
+89 http request GET https://registry.npmjs.org/lite-server
+90 verbose request uri https://registry.npmjs.org/typescript
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 10:27:24 PM
+93 verbose etag "4AFFILIL9PWU6VA639CGYYY1M"
+94 http request GET https://registry.npmjs.org/typescript
+95 http 304 https://registry.npmjs.org/angular2
+96 silly get cb [ 304,
+96 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+96 silly get     via: '1.1 varnish',
+96 silly get     'cache-control': 'max-age=300',
+96 silly get     etag: '"4LY048K673Q3Q5NAI25GGKDN2"',
+96 silly get     age: '84',
+96 silly get     connection: 'keep-alive',
+96 silly get     'x-served-by': 'cache-jfk1029-JFK',
+96 silly get     'x-cache': 'HIT',
+96 silly get     'x-cache-hits': '1',
+96 silly get     'x-timer': 'S1455074844.913299,VS0,VE4',
+96 silly get     vary: 'Accept' } ]
+97 verbose etag https://registry.npmjs.org/angular2 from cache
+98 verbose get saving angular2 to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\angular2\.cache.json
+99 http 304 https://registry.npmjs.org/rxjs
+100 silly get cb [ 304,
+100 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+100 silly get     via: '1.1 varnish',
+100 silly get     'cache-control': 'max-age=300',
+100 silly get     etag: '"BPAF21TV8ADK44UNBQPY3ATHB"',
+100 silly get     age: '84',
+100 silly get     connection: 'keep-alive',
+100 silly get     'x-served-by': 'cache-jfk1045-JFK',
+100 silly get     'x-cache': 'HIT',
+100 silly get     'x-cache-hits': '1',
+100 silly get     'x-timer': 'S1455074844.922402,VS0,VE0',
+100 silly get     vary: 'Accept' } ]
+101 verbose etag https://registry.npmjs.org/rxjs from cache
+102 verbose get saving rxjs to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\rxjs\.cache.json
+103 http 304 https://registry.npmjs.org/es6-shim
+104 silly get cb [ 304,
+104 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+104 silly get     via: '1.1 varnish',
+104 silly get     'cache-control': 'max-age=300',
+104 silly get     etag: '"7SL49GWPGIVZI866EVAQU9PEH"',
+104 silly get     age: '230',
+104 silly get     connection: 'keep-alive',
+104 silly get     'x-served-by': 'cache-jfk1030-JFK',
+104 silly get     'x-cache': 'HIT',
+104 silly get     'x-cache-hits': '1',
+104 silly get     'x-timer': 'S1455074844.924450,VS0,VE0',
+104 silly get     vary: 'Accept' } ]
+105 verbose etag https://registry.npmjs.org/es6-shim from cache
+106 verbose get saving es6-shim to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\es6-shim\.cache.json
+107 http 304 https://registry.npmjs.org/systemjs
+108 silly get cb [ 304,
+108 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+108 silly get     via: '1.1 varnish',
+108 silly get     'cache-control': 'max-age=300',
+108 silly get     etag: '"B57QO2CBYA1Z8S5TC2TEOCGOA"',
+108 silly get     age: '109',
+108 silly get     connection: 'keep-alive',
+108 silly get     'x-served-by': 'cache-jfk1035-JFK',
+108 silly get     'x-cache': 'HIT',
+108 silly get     'x-cache-hits': '1',
+108 silly get     'x-timer': 'S1455074844.928482,VS0,VE0',
+108 silly get     vary: 'Accept' } ]
+109 verbose etag https://registry.npmjs.org/systemjs from cache
+110 verbose get saving systemjs to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\systemjs\.cache.json
+111 http 304 https://registry.npmjs.org/lite-server
+112 silly get cb [ 304,
+112 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+112 silly get     via: '1.1 varnish',
+112 silly get     'cache-control': 'max-age=300',
+112 silly get     etag: '"CKHPDNZAMXCT2LQOSK95ASEMV"',
+112 silly get     age: '84',
+112 silly get     connection: 'keep-alive',
+112 silly get     'x-served-by': 'cache-jfk1047-JFK',
+112 silly get     'x-cache': 'HIT',
+112 silly get     'x-cache-hits': '1',
+112 silly get     'x-timer': 'S1455074844.929517,VS0,VE0',
+112 silly get     vary: 'Accept' } ]
+113 verbose etag https://registry.npmjs.org/lite-server from cache
+114 verbose get saving lite-server to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\lite-server\.cache.json
+115 http 304 https://registry.npmjs.org/zone.js
+116 silly get cb [ 304,
+116 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+116 silly get     via: '1.1 varnish',
+116 silly get     'cache-control': 'max-age=300',
+116 silly get     etag: '"3GKWDU3GG4G6O0C93TO8BD8RU"',
+116 silly get     age: '84',
+116 silly get     connection: 'keep-alive',
+116 silly get     'x-served-by': 'cache-jfk1048-JFK',
+116 silly get     'x-cache': 'HIT',
+116 silly get     'x-cache-hits': '1',
+116 silly get     'x-timer': 'S1455074844.932367,VS0,VE0',
+116 silly get     vary: 'Accept' } ]
+117 verbose etag https://registry.npmjs.org/zone.js from cache
+118 verbose get saving zone.js to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\zone.js\.cache.json
+119 http 304 https://registry.npmjs.org/es6-promise
+120 silly get cb [ 304,
+120 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+120 silly get     via: '1.1 varnish',
+120 silly get     'cache-control': 'max-age=300',
+120 silly get     etag: '"8NQ2UOPDXS1O1M7DJ0QP3T0X5"',
+120 silly get     age: '137',
+120 silly get     connection: 'keep-alive',
+120 silly get     'x-served-by': 'cache-jfk1022-JFK',
+120 silly get     'x-cache': 'HIT',
+120 silly get     'x-cache-hits': '1',
+120 silly get     'x-timer': 'S1455074844.934923,VS0,VE0',
+120 silly get     vary: 'Accept' } ]
+121 verbose etag https://registry.npmjs.org/es6-promise from cache
+122 verbose get saving es6-promise to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\es6-promise\.cache.json
+123 http 304 https://registry.npmjs.org/typescript
+124 silly get cb [ 304,
+124 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+124 silly get     via: '1.1 varnish',
+124 silly get     'cache-control': 'max-age=300',
+124 silly get     etag: '"4AFFILIL9PWU6VA639CGYYY1M"',
+124 silly get     age: '22',
+124 silly get     connection: 'keep-alive',
+124 silly get     'x-served-by': 'cache-jfk1045-JFK',
+124 silly get     'x-cache': 'HIT',
+124 silly get     'x-cache-hits': '1',
+124 silly get     'x-timer': 'S1455074844.934508,VS0,VE0',
+124 silly get     vary: 'Accept' } ]
+125 verbose etag https://registry.npmjs.org/typescript from cache
+126 verbose get saving typescript to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\typescript\.cache.json
+127 http 304 https://registry.npmjs.org/reflect-metadata
+128 silly get cb [ 304,
+128 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+128 silly get     via: '1.1 varnish',
+128 silly get     'cache-control': 'max-age=300',
+128 silly get     etag: '"ALR0H8W23JMSDAF0WMBCAYP5O"',
+128 silly get     age: '153',
+128 silly get     connection: 'keep-alive',
+128 silly get     'x-served-by': 'cache-jfk1023-JFK',
+128 silly get     'x-cache': 'HIT',
+128 silly get     'x-cache-hits': '1',
+128 silly get     'x-timer': 'S1455074844.942461,VS0,VE0',
+128 silly get     vary: 'Accept' } ]
+129 verbose etag https://registry.npmjs.org/reflect-metadata from cache
+130 verbose get saving reflect-metadata to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\reflect-metadata\.cache.json
+131 http 304 https://registry.npmjs.org/concurrently
+132 silly get cb [ 304,
+132 silly get   { date: 'Wed, 10 Feb 2016 03:27:24 GMT',
+132 silly get     via: '1.1 varnish',
+132 silly get     'cache-control': 'max-age=300',
+132 silly get     etag: '"CCO1S1BLU0RVXSP2AKD7JIKSU"',
+132 silly get     age: '0',
+132 silly get     connection: 'keep-alive',
+132 silly get     'x-served-by': 'cache-jfk1026-JFK',
+132 silly get     'x-cache': 'HIT',
+132 silly get     'x-cache-hits': '1',
+132 silly get     'x-timer': 'S1455074844.941814,VS0,VE18',
+132 silly get     vary: 'Accept' } ]
+133 verbose etag https://registry.npmjs.org/concurrently from cache
+134 verbose get saving concurrently to C:\Users\Professional\AppData\Roaming\npm-cache\registry.npmjs.org\concurrently\.cache.json
+135 verbose outdated not updating rxjs because it's currently at the maximum version that matches its specified semver range
+136 verbose outdated not updating es6-shim because it's currently at the maximum version that matches its specified semver range
+137 verbose outdated not updating systemjs because it's currently at the maximum version that matches its specified semver range
+138 verbose outdated not updating reflect-metadata because it's currently at the maximum version that matches its specified semver range
+139 info outdated updating [ [ 'e:\\gitProjects\\angular.ashishpathak.io',
+139 info outdated     'typescript',
+139 info outdated     '1.7.5',
+139 info outdated     '1.8.0',
+139 info outdated     '1.7.5',
+139 info outdated     '^1.7.5' ],
+139 info outdated   [ 'e:\\gitProjects\\angular.ashishpathak.io',
+139 info outdated     'zone.js',
+139 info outdated     undefined,
+139 info outdated     '0.5.11',
+139 info outdated     '0.5.13',
+139 info outdated     '0.5.11' ] ]
+140 verbose install where, what [ 'e:\\gitProjects\\angular.ashishpathak.io',
+140 verbose install   [ 'typescript@1.8.0' ] ]
+141 verbose install where, what [ 'e:\\gitProjects\\angular.ashishpathak.io',
+141 verbose install   [ 'zone.js@0.5.11' ] ]
+142 silly cache add args [ 'zone.js@0.5.11', null ]
+143 verbose cache add spec zone.js@0.5.11
+144 silly cache add parsed spec { raw: 'zone.js@0.5.11',
+144 silly cache add   scope: null,
+144 silly cache add   name: 'zone.js',
+144 silly cache add   rawSpec: '0.5.11',
+144 silly cache add   spec: '0.5.11',
+144 silly cache add   type: 'version' }
+145 verbose addNamed zone.js@0.5.11
+146 silly addNamed semver.valid 0.5.11
+147 silly addNamed semver.validRange 0.5.11
+148 silly mapToRegistry name zone.js
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+152 verbose addNameVersion registry:https://registry.npmjs.org/zone.js not in flight; fetching
+153 silly cache add args [ 'typescript@1.8.0', null ]
+154 verbose cache add spec typescript@1.8.0
+155 silly cache add parsed spec { raw: 'typescript@1.8.0',
+155 silly cache add   scope: null,
+155 silly cache add   name: 'typescript',
+155 silly cache add   rawSpec: '1.8.0',
+155 silly cache add   spec: '1.8.0',
+155 silly cache add   type: 'version' }
+156 verbose addNamed typescript@1.8.0
+157 silly addNamed semver.valid 1.8.0
+158 silly addNamed semver.validRange 1.8.0
+159 silly mapToRegistry name typescript
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry uri https://registry.npmjs.org/typescript
+163 verbose addNameVersion registry:https://registry.npmjs.org/typescript not in flight; fetching
+164 verbose get https://registry.npmjs.org/zone.js not expired, no request
+165 verbose get https://registry.npmjs.org/typescript not expired, no request
+166 silly mapToRegistry name typescript
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/typescript
+170 verbose addRemoteTarball https://registry.npmjs.org/typescript/-/typescript-1.8.0.tgz not in flight; adding
+171 verbose addRemoteTarball [ 'https://registry.npmjs.org/typescript/-/typescript-1.8.0.tgz',
+171 verbose addRemoteTarball   'cc5bc63d7f7d84ea26debd7adb774c0362b0ec11' ]
+172 silly cache afterAdd zone.js@0.5.11
+173 verbose afterAdd C:\Users\Professional\AppData\Roaming\npm-cache\zone.js\0.5.11\package\package.json not in flight; writing
+174 info retry fetch attempt 1 at 10:27:24 PM
+175 info attempt registry request try #1 at 10:27:24 PM
+176 http fetch GET https://registry.npmjs.org/typescript/-/typescript-1.8.0.tgz
+177 verbose afterAdd C:\Users\Professional\AppData\Roaming\npm-cache\zone.js\0.5.11\package\package.json written
+178 silly install resolved [ { name: 'zone.js',
+178 silly install resolved     version: '0.5.11',
+178 silly install resolved     description: 'Zones for JavaScript',
+178 silly install resolved     main: 'lib/zone.js',
+178 silly install resolved     files: [ 'lib', 'dist' ],
+178 silly install resolved     directories: { lib: 'lib', test: 'test' },
+178 silly install resolved     scripts:
+178 silly install resolved      { postinstall: 'tsd install',
+178 silly install resolved        tsc: 'tsc',
+178 silly install resolved        'tsc:w': 'tsc -w',
+178 silly install resolved        test: 'karma start karma.conf.js',
+178 silly install resolved        serve: 'python -m SimpleHTTPServer 8000' },
+178 silly install resolved     repository: { type: 'git', url: 'git://github.com/angular/zone.js.git' },
+178 silly install resolved     author: { name: 'Brian Ford' },
+178 silly install resolved     license: 'MIT',
+178 silly install resolved     bugs: { url: 'https://github.com/angular/zone.js/issues' },
+178 silly install resolved     dependencies: { 'es6-promise': '^3.0.2' },
+178 silly install resolved     devDependencies:
+178 silly install resolved      { gulp: '^3.8.11',
+178 silly install resolved        'gulp-util': '^3.0.7',
+178 silly install resolved        'gulp-rename': '^1.2.2',
+178 silly install resolved        'gulp-uglify': '^1.2.0',
+178 silly install resolved        'jasmine-core': '^2.2.0',
+178 silly install resolved        'karma-firefox-launcher': '^0.1.4',
+178 silly install resolved        'karma-safari-launcher': '^0.1.1',
+178 silly install resolved        'karma-sauce-launcher': '^0.2.10',
+178 silly install resolved        karma: '^0.13.14',
+178 silly install resolved        'karma-chrome-launcher': '^0.2.1',
+178 silly install resolved        'karma-jasmine': '^0.3.6',
+178 silly install resolved        'karma-sourcemap-loader': '^0.3.6',
+178 silly install resolved        'karma-webpack': '^1.7.0',
+178 silly install resolved        'ts-loader': '^0.6.0',
+178 silly install resolved        tsd: '^0.6.5',
+178 silly install resolved        typescript: '^1.7.3',
+178 silly install resolved        webpack: '^1.12.2',
+178 silly install resolved        'nodejs-websocket': '^1.2.0',
+178 silly install resolved        'vinyl-buffer': '^1.0.0',
+178 silly install resolved        'vinyl-source-stream': '^1.1.0' },
+178 silly install resolved     readme: '# Zone.js\n\n[![Build Status](https://travis-ci.org/angular/zone.js.png)](https://travis-ci.org/angular/zone.js)\n\nImplements _Zones_ for JavaScript, inspired by [Dart](https://www.dartlang.org/articles/zones/).\n\n\n## What\'s a Zone?\n\nA Zone is an execution context that persists across async tasks.\nYou can think of it as [thread-local storage](http://en.wikipedia.org/wiki/Thread-local_storage) for JavaScript VMs.\n\nSee this video from ng-conf 2014 for a detailed explanation:\n\n[![screenshot of the zone.js presentation and ng-conf 2014](/presentation.png)](//www.youtube.com/watch?v=3IqtmUscE_U)\n\n### Running Within a Zone\n\nYou can run code within a zone with `zone.run`.\nTasks scheduled (with `setTimeout`, `setInterval`, or event listeners) stay within that zone.\n\n```javascript\nzone.fork().run(function () {\n  zone.inTheZone = true;\n\n  setTimeout(function () {\n    console.log(\'in the zone: \' + !!zone.inTheZone);\n  }, 0);\n});\n\nconsole.log(\'in the zone: \' + !!zone.inTheZone);\n```\n\nThe above will log:\n\n```\n\'in the zone: false\'\n\'in the zone: true\'\n```\n\nNote that the function delayed by `setTimeout` stays inside the zone.\n\n### Forking a Zone\n\nZones have a set of hooks that allow you to change the behavior of code running within that zone.\nTo change a zone, you _fork_ it to get a new one.\n\n```javascript\nzone.fork({\n  beforeTask: function () {\n    console.log(\'hi\');\n  }\n}).run(function () {\n  // do stuff\n});\n```\n\nHooks that you don\'t override when forking a zone are inherited from the existing one.\n\nSee the [API docs](#api) below for more.\n\n\n## Usage\n\nTo start using Zones, you need to include the `zone.js` script in this package onto\nyour page. This script should appear in the `<head>` of your HTML file before any other\nscripts, including shims/polyfills.\n\n\n## Examples\n\nThere are two kinds of examples:\n\n  1. The kind you have to run\n  2. Illustrative code snippets in this README\n\n### Running the ones that you have to run\n\nFor fully working examples:\n\n  1. Spawn a webserver in the root of the directory in which this repo lives.\n  (I like to use `python -m SimpleHTTPServer 3000`).\n  2. Open `http://localhost:3000/example` in your browser\n\nBelow are the aforementioned snippets.\n\n### Overriding A Zone\'s Hook\n\n```javascript\nvar someZone = zone.fork({\n  afterTask: function () {\n    console.log(\'goodbye\');\n  }\n});\n\nsomeZone.fork({\n  afterTask: function () {\n    console.log(\'cya l8r\');\n  }\n}).run(function () {\n  // do stuff\n});\n\n// logs: cya l8r\n```\n\n### Augmenting A Zone\'s Hook\n\nWhen you fork a zone, you\'ll often want to control how the parent zone\'s\nhook gets called.\n\nPrefixing a hook with `$` means that the hook will be passed the\nparent zone\'s hook, and the hook will be expected to return the function to\nbe invoked rather than be the function itself.\n\n```javascript\nvar someZone = zone.fork({\n  afterTask: function () {\n    console.log(\'goodbye\');\n  }\n});\n\nsomeZone.fork({\n  $afterTask: function (parentOnLeave) {\n    // return the hook\n    return function afterTask() {\n      parentOnLeave();\n      console.log(\'cya l8r\');\n    };\n  }\n}).run(function () {\n  // do stuff\n});\n\n// logs: goodbye\n//       cya l8r\n```\n\n#### `+` and `-` Sugar\nMost of the time, you\'ll want to run a hook before or after the parent\'s implementation.\nYou can prefix a hook with `-` for running before, and `+` for running after.\n\nThe above can be written like this:\n\n```javascript\nvar someZone = zone.fork({\n  afterTask: function () {\n    console.log(\'goodbye\');\n  }\n});\n\nsomeZone.fork({\n  \'+afterTask\': function () {\n    console.log(\'cya l8r\');\n  }\n}).run(function () {\n  // do stuff\n});\n\n// logs: goodbye\n//       cya l8r\n```\n\nThis frees you from writing boilerplate to compose a new hook.\n\n## API\n\nZone.js exports a single object: `window.zone`.\n\n### `zone.run`\n\nRuns a given function within the zone.\nExplained above.\n\n### `zone.bind`\n\nTransforms a function to run within the given zone.\n\n### `zone.fork`\n\n```javascript\nvar myZone = zone.fork({\n  onZoneCreated: function () {},\n  beforeTask: function () {},\n  afterTask: function () {},\n  onError: function () {},\n  enqueueTask: function() {},\n  dequeueTask: function() {},\n  setTimeout: function () {},\n  setInterval: function () {},\n  alert: function () {},\n  prompt: function () {},\n});\nmyZone.run(function () {\n  // woo!\n});\n```\n\nBelow describes the behavior of each of these hooks.\n\n### `zone.onZoneCreated`\n\nRuns when a zone is forked.\n\n### `zone.beforeTask`\n\nBefore a function invoked with `zone.run`, this hook runs.\nIf `zone.beforeTask` throws, the function  passed to `run` will not be invoked.\n\n### `zone.afterTask`\n\nAfter a function in a zone runs, the `afterTask` hook runs.\nThis hook will run even if the function passed to `run` throws.\n\n### `zone.onError`\n\nThis hook is called when the function passed to `run` or the `beforeTask` hook throws.\n\n### `zone.enqueueTask`\n\nThis hook is called when a function is registered with the VM.\nFor instance `setTimeout` and `addEventListener`.\n\n### `zone.dequeueTask`\n\nThis hook is called when a function is unregistered with the VM.\nFor instance `clearTimeout` and `removeEventListener`.\n\n### `zone.setTimeout`, `zone.setInterval`, `zone.alert`, `zone.prompt`\n\nThese hooks allow you to change the behavior of `window.setTimeout`, `window.setInterval`, etc.\nWhile in this zone, calls to `window.setTimeout` will redirect to `zone.setTimeout`.\n\n### `zone.requestAnimationFrame`, `zone.webkitRequestAnimationFrame`, `zone.mozRequestAnimationFrame`\n\nThese hooks allow you to change the behavior of `window.requestAnimationFrame()`, \n`window.webkitRequestAnimationFrame`, and `window.mozRequestAnimationFrame`.\n\nBy default the callback is executed in the zone where those methods have been called to avoid \ngrowing the stack size on each recursive call.\n\n### `zone.addEventListener`\n\nThis hook allows you to intercept calls to `EventTarget#addEventListener`.\n\n````javascript\nvar clickListenerCount = 0;\n\nzone.fork(\n  $addEventListener: function(parentAddEventListener) {\n    return function (type, listener) {\n      if (type === \'click\') clickListenerCount++;\n      return parentAddEventListener.apply(this, arguments);\n    };\n  }\n);\n\nzone.run(function() {\n  myElement.addEventListener(\'click\', listener);\n  myOtherElement.addEventListener(\'click\', listener);\n\n  console.log(clickListenerCount); // 2\n});\n````\n\n### `zone.removeEventListener`\n\nThis hook allows you to intercept calls to `EventTarget#removeEventListener`.\n\n````javascript\nvar clickListenerCount = 0;\n\nzone.fork(\n  $removeEventListener: function(parentRemoveEventListener) {\n    return function (type, listener) {\n      if (type === \'click\') clickListenerCount--;\n      return parentRemoveEventListener.apply(this, arguments);\n    };\n  }\n);\n\nzone.run(function() {\n  myElement.addEventListener(\'click\', listener);\n  myElement.removeEventListener(\'click\', listener);\n\n  console.log(clickListenerCount); // 0\n});\n````\n\n\n## Status\n\n* `setTimeout`, `setInterval`, and `addEventListener` work in FF23, IE10, and Chrome.\n* stack trace rewrite is kinda ugly and may contain extraneous calls.\n* `elt.onevent` works in FF23, IE10, but not Chrome. There\'s [a fix in the works though](https://code.google.com/p/chromium/issues/detail?id=43394)!\n\n\n## See also\n* [async-listener](https://github.com/othiym23/async-listener) - a similar library for node\n* [Async stack traces in Chrome](http://www.html5rocks.com/en/tutorials/developertools/async-call-stack/)\n* [strongloop/zone](https://github.com/strongloop/zone)\n* [vizone](https://github.com/gilbox/vizone) - control flow visualizer that uses zone.js\n\n\n## License\nApache 2.0\n',
+178 silly install resolved     readmeFilename: 'README.md',
+178 silly install resolved     homepage: 'https://github.com/angular/zone.js',
+178 silly install resolved     _id: 'zone.js@0.5.11',
+178 silly install resolved     _shasum: '97b84ef72ed1223b6c17c23d414b912c3db86827',
+178 silly install resolved     _from: 'zone.js@0.5.11',
+178 silly install resolved     _resolved: 'https://registry.npmjs.org/zone.js/-/zone.js-0.5.11.tgz' } ]
+179 info install zone.js@0.5.11 into e:\gitProjects\angular.ashishpathak.io
+180 info installOne zone.js@0.5.11
+181 verbose installOne of zone.js to e:\gitProjects\angular.ashishpathak.io not in flight; installing
+182 verbose lock using C:\Users\Professional\AppData\Roaming\npm-cache\_locks\zone-js-3d154acc36417575.lock for e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+183 silly install write writing zone.js 0.5.11 to e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+184 silly cache addNamed cb zone.js@0.5.11
+185 verbose unbuild node_modules\zone.js
+186 silly gentlyRm e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js is being purged from base e:\gitProjects\angular.ashishpathak.io
+187 verbose gentlyRm don't care about contents; nuking e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+188 verbose tar unpack C:\Users\Professional\AppData\Roaming\npm-cache\zone.js\0.5.11\package.tgz
+189 verbose tar unpacking to e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+190 silly gentlyRm e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js is being purged
+191 verbose gentlyRm don't care about contents; nuking e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+192 silly gunzTarPerm modes [ '777', '666' ]
+193 silly gunzTarPerm extractEntry package.json
+194 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+195 silly gunzTarPerm extractEntry README.md
+196 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+197 silly gunzTarPerm extractEntry LICENSE
+198 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+199 silly gunzTarPerm extractEntry dist/jasmine-patch.js
+200 silly gunzTarPerm modified mode [ 'dist/jasmine-patch.js', 420, 438 ]
+201 silly gunzTarPerm extractEntry dist/jasmine-patch.min.js
+202 silly gunzTarPerm modified mode [ 'dist/jasmine-patch.min.js', 420, 438 ]
+203 silly gunzTarPerm extractEntry dist/long-stack-trace-zone.js
+204 silly gunzTarPerm modified mode [ 'dist/long-stack-trace-zone.js', 420, 438 ]
+205 silly gunzTarPerm extractEntry dist/long-stack-trace-zone.min.js
+206 silly gunzTarPerm modified mode [ 'dist/long-stack-trace-zone.min.js', 420, 438 ]
+207 silly gunzTarPerm extractEntry dist/zone-microtask.js
+208 silly gunzTarPerm modified mode [ 'dist/zone-microtask.js', 420, 438 ]
+209 silly gunzTarPerm extractEntry dist/zone-microtask.min.js
+210 silly gunzTarPerm modified mode [ 'dist/zone-microtask.min.js', 420, 438 ]
+211 silly gunzTarPerm extractEntry dist/zone.js
+212 silly gunzTarPerm modified mode [ 'dist/zone.js', 420, 438 ]
+213 silly gunzTarPerm extractEntry dist/zone.min.js
+214 silly gunzTarPerm modified mode [ 'dist/zone.min.js', 420, 438 ]
+215 silly gunzTarPerm extractEntry lib/browser/jasmine-patch.ts
+216 silly gunzTarPerm modified mode [ 'lib/browser/jasmine-patch.ts', 420, 438 ]
+217 silly gunzTarPerm extractEntry lib/browser/long-stack-trace-zone.ts
+218 silly gunzTarPerm modified mode [ 'lib/browser/long-stack-trace-zone.ts', 420, 438 ]
+219 silly gunzTarPerm extractEntry lib/browser/zone-microtask.ts
+220 silly gunzTarPerm modified mode [ 'lib/browser/zone-microtask.ts', 420, 438 ]
+221 silly gunzTarPerm extractEntry lib/browser/zone.ts
+222 silly gunzTarPerm modified mode [ 'lib/browser/zone.ts', 420, 438 ]
+223 silly gunzTarPerm extractEntry lib/core.ts
+224 silly gunzTarPerm modified mode [ 'lib/core.ts', 420, 438 ]
+225 silly gunzTarPerm extractEntry lib/jasmine/patch.ts
+226 silly gunzTarPerm modified mode [ 'lib/jasmine/patch.ts', 420, 438 ]
+227 silly gunzTarPerm extractEntry lib/keys.ts
+228 silly gunzTarPerm modified mode [ 'lib/keys.ts', 420, 438 ]
+229 silly gunzTarPerm extractEntry lib/microtask.ts
+230 silly gunzTarPerm modified mode [ 'lib/microtask.ts', 420, 438 ]
+231 silly gunzTarPerm extractEntry lib/patch/geolocation.ts
+232 silly gunzTarPerm modified mode [ 'lib/patch/geolocation.ts', 420, 438 ]
+233 silly gunzTarPerm extractEntry lib/patch/browser.ts
+234 silly gunzTarPerm modified mode [ 'lib/patch/browser.ts', 420, 438 ]
+235 silly gunzTarPerm extractEntry lib/patch/event-target.ts
+236 silly gunzTarPerm modified mode [ 'lib/patch/event-target.ts', 420, 438 ]
+237 silly gunzTarPerm extractEntry lib/patch/file-reader.ts
+238 silly gunzTarPerm modified mode [ 'lib/patch/file-reader.ts', 420, 438 ]
+239 silly gunzTarPerm extractEntry lib/patch/functions.ts
+240 silly gunzTarPerm modified mode [ 'lib/patch/functions.ts', 420, 438 ]
+241 silly gunzTarPerm extractEntry lib/patch/define-property.ts
+242 silly gunzTarPerm modified mode [ 'lib/patch/define-property.ts', 420, 438 ]
+243 silly gunzTarPerm extractEntry lib/patch/mutation-observer.ts
+244 silly gunzTarPerm modified mode [ 'lib/patch/mutation-observer.ts', 420, 438 ]
+245 silly gunzTarPerm extractEntry lib/patch/promise.ts
+246 silly gunzTarPerm modified mode [ 'lib/patch/promise.ts', 420, 438 ]
+247 silly gunzTarPerm extractEntry lib/patch/property-descriptor.ts
+248 silly gunzTarPerm modified mode [ 'lib/patch/property-descriptor.ts', 420, 438 ]
+249 silly gunzTarPerm extractEntry lib/patch/register-element.ts
+250 silly gunzTarPerm modified mode [ 'lib/patch/register-element.ts', 420, 438 ]
+251 silly gunzTarPerm extractEntry lib/patch/websocket.ts
+252 silly gunzTarPerm modified mode [ 'lib/patch/websocket.ts', 420, 438 ]
+253 silly gunzTarPerm extractEntry lib/utils.ts
+254 silly gunzTarPerm modified mode [ 'lib/utils.ts', 420, 438 ]
+255 silly gunzTarPerm extractEntry lib/wtf.ts
+256 silly gunzTarPerm modified mode [ 'lib/wtf.ts', 420, 438 ]
+257 silly gunzTarPerm extractEntry lib/zone.ts
+258 silly gunzTarPerm modified mode [ 'lib/zone.ts', 420, 438 ]
+259 silly gunzTarPerm extractEntry lib/zones/long-stack-trace.ts
+260 silly gunzTarPerm modified mode [ 'lib/zones/long-stack-trace.ts', 420, 438 ]
+261 info preinstall zone.js@0.5.11
+262 silly install resolved []
+263 verbose about to build e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+264 info build e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+265 verbose linkStuff [ false,
+265 verbose linkStuff   false,
+265 verbose linkStuff   false,
+265 verbose linkStuff   'e:\\gitProjects\\angular.ashishpathak.io\\node_modules' ]
+266 info linkStuff zone.js@0.5.11
+267 verbose linkBins zone.js@0.5.11
+268 verbose linkMans zone.js@0.5.11
+269 verbose rebuildBundles zone.js@0.5.11
+270 http fetch 200 https://registry.npmjs.org/typescript/-/typescript-1.8.0.tgz
+271 info install zone.js@0.5.11
+272 info postinstall zone.js@0.5.11
+273 verbose unsafe-perm in lifecycle true
+274 info zone.js@0.5.11 Failed to exec postinstall script
+275 verbose unlock done using C:\Users\Professional\AppData\Roaming\npm-cache\_locks\zone-js-3d154acc36417575.lock for e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+276 silly fetchAndShaCheck shasum cc5bc63d7f7d84ea26debd7adb774c0362b0ec11
+277 verbose addTmpTarball C:\Users\PROFES~1\AppData\Local\Temp\npm-9644-594f6189\registry.npmjs.org\typescript\-\typescript-1.8.0.tgz not in flight; adding
+278 verbose addTmpTarball already have metadata; skipping unpack for typescript@1.8.0
+279 silly cache afterAdd typescript@1.8.0
+280 verbose afterAdd C:\Users\Professional\AppData\Roaming\npm-cache\typescript\1.8.0\package\package.json not in flight; writing
+281 verbose afterAdd C:\Users\Professional\AppData\Roaming\npm-cache\typescript\1.8.0\package\package.json written
+282 silly install resolved [ { name: 'typescript',
+282 silly install resolved     author: { name: 'Microsoft Corp.' },
+282 silly install resolved     homepage: 'http://typescriptlang.org/',
+282 silly install resolved     version: '1.8.0',
+282 silly install resolved     license: 'Apache-2.0',
+282 silly install resolved     description: 'TypeScript is a language for application scale JavaScript development',
+282 silly install resolved     keywords: [ 'TypeScript', 'Microsoft', 'compiler', 'language', 'javascript' ],
+282 silly install resolved     bugs: { url: 'https://github.com/Microsoft/TypeScript/issues' },
+282 silly install resolved     repository:
+282 silly install resolved      { type: 'git',
+282 silly install resolved        url: 'https://github.com/Microsoft/TypeScript.git' },
+282 silly install resolved     main: './lib/typescript.js',
+282 silly install resolved     typings: './lib/typescript.d.ts',
+282 silly install resolved     bin: { tsc: './bin/tsc', tsserver: './bin/tsserver' },
+282 silly install resolved     engines: { node: '>=0.8.0' },
+282 silly install resolved     devDependencies:
+282 silly install resolved      { jake: 'latest',
+282 silly install resolved        mocha: '2.3.4',
+282 silly install resolved        chai: 'latest',
+282 silly install resolved        browserify: 'latest',
+282 silly install resolved        istanbul: 'latest',
+282 silly install resolved        'mocha-fivemat-progress-reporter': 'latest',
+282 silly install resolved        tslint: 'next',
+282 silly install resolved        typescript: 'next',
+282 silly install resolved        tsd: 'latest' },
+282 silly install resolved     scripts:
+282 silly install resolved      { pretest: 'jake tests',
+282 silly install resolved        test: 'jake runtests',
+282 silly install resolved        build: 'npm run build:compiler && npm run build:tests',
+282 silly install resolved        'build:compiler': 'jake local',
+282 silly install resolved        'build:tests': 'jake tests',
+282 silly install resolved        clean: 'jake clean',
+282 silly install resolved        jake: 'jake',
+282 silly install resolved        lint: 'jake lint',
+282 silly install resolved        'setup-hooks': 'node scripts/link-hooks.js' },
+282 silly install resolved     browser: { buffer: false, fs: false, os: false, path: false },
+282 silly install resolved     gitHead: 'a288b84632c1400806df55025ca6b568cfa4d00e',
+282 silly install resolved     _id: 'typescript@1.8.0',
+282 silly install resolved     _shasum: 'cc5bc63d7f7d84ea26debd7adb774c0362b0ec11',
+282 silly install resolved     _from: 'typescript@1.8.0',
+282 silly install resolved     _npmVersion: '2.0.0',
+282 silly install resolved     _npmUser: { name: 'typescript', email: 'typescript@microsoft.com' },
+282 silly install resolved     maintainers: [ [Object] ],
+282 silly install resolved     dist:
+282 silly install resolved      { shasum: 'cc5bc63d7f7d84ea26debd7adb774c0362b0ec11',
+282 silly install resolved        tarball: 'http://registry.npmjs.org/typescript/-/typescript-1.8.0.tgz' },
+282 silly install resolved     directories: {},
+282 silly install resolved     _resolved: 'https://registry.npmjs.org/typescript/-/typescript-1.8.0.tgz' } ]
+283 info install typescript@1.8.0 into e:\gitProjects\angular.ashishpathak.io
+284 info installOne typescript@1.8.0
+285 verbose installOne of typescript to e:\gitProjects\angular.ashishpathak.io not in flight; installing
+286 verbose lock using C:\Users\Professional\AppData\Roaming\npm-cache\_locks\typescript-ff255266f1972857.lock for e:\gitProjects\angular.ashishpathak.io\node_modules\typescript
+287 silly install write writing typescript 1.8.0 to e:\gitProjects\angular.ashishpathak.io\node_modules\typescript
+288 silly cache addNamed cb typescript@1.8.0
+289 verbose unbuild node_modules\typescript
+290 info preuninstall typescript@1.7.5
+291 info uninstall typescript@1.7.5
+292 verbose unbuild rmStuff typescript@1.7.5 from e:\gitProjects\angular.ashishpathak.io\node_modules
+293 silly gentlyRm e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsc.cmd is being gently removed
+294 silly gentlyRm verifying e:\gitProjects\angular.ashishpathak.io is an npm working directory
+295 silly gentlyRm e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsserver.cmd is being gently removed
+296 silly gentlyRm verifying e:\gitProjects\angular.ashishpathak.io is an npm working directory
+297 silly gentlyRm containing path e:\gitProjects\angular.ashishpathak.io is under npm's control, in e:\gitProjects\angular.ashishpathak.io
+298 silly gentlyRm deletion target e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsc.cmd is under e:\gitProjects\angular.ashishpathak.io
+299 verbose gentlyRm vacuuming from e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsc.cmd up to e:\gitProjects\angular.ashishpathak.io
+300 silly gentlyRm containing path e:\gitProjects\angular.ashishpathak.io is under npm's control, in e:\gitProjects\angular.ashishpathak.io
+301 silly gentlyRm deletion target e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsserver.cmd is under e:\gitProjects\angular.ashishpathak.io
+302 verbose gentlyRm vacuuming from e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsserver.cmd up to e:\gitProjects\angular.ashishpathak.io
+303 silly vacuum-fs removing e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsc.cmd
+304 silly vacuum-fs removing e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsserver.cmd
+305 silly vacuum-fs quitting because other entries in e:\gitProjects\angular.ashishpathak.io\node_modules\.bin
+306 silly gentlyRm e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsc is being gently removed
+307 silly gentlyRm verifying e:\gitProjects\angular.ashishpathak.io is an npm working directory
+308 silly gentlyRm containing path e:\gitProjects\angular.ashishpathak.io is under npm's control, in e:\gitProjects\angular.ashishpathak.io
+309 silly gentlyRm deletion target e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsc is under e:\gitProjects\angular.ashishpathak.io
+310 verbose gentlyRm vacuuming from e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsc up to e:\gitProjects\angular.ashishpathak.io
+311 silly vacuum-fs quitting because other entries in e:\gitProjects\angular.ashishpathak.io\node_modules\.bin
+312 silly gentlyRm e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsserver is being gently removed
+313 silly gentlyRm verifying e:\gitProjects\angular.ashishpathak.io is an npm working directory
+314 silly gentlyRm containing path e:\gitProjects\angular.ashishpathak.io is under npm's control, in e:\gitProjects\angular.ashishpathak.io
+315 silly gentlyRm deletion target e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsserver is under e:\gitProjects\angular.ashishpathak.io
+316 verbose gentlyRm vacuuming from e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsserver up to e:\gitProjects\angular.ashishpathak.io
+317 silly vacuum-fs removing e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsc
+318 silly vacuum-fs removing e:\gitProjects\angular.ashishpathak.io\node_modules\.bin\tsserver
+319 silly vacuum-fs quitting because other entries in e:\gitProjects\angular.ashishpathak.io\node_modules\.bin
+320 silly vacuum-fs quitting because other entries in e:\gitProjects\angular.ashishpathak.io\node_modules\.bin
+321 info postuninstall typescript@1.7.5
+322 silly gentlyRm e:\gitProjects\angular.ashishpathak.io\node_modules\typescript is being purged from base e:\gitProjects\angular.ashishpathak.io
+323 verbose gentlyRm don't care about contents; nuking e:\gitProjects\angular.ashishpathak.io\node_modules\typescript
+324 silly vacuum-fs purging e:\gitProjects\angular.ashishpathak.io\node_modules\typescript
+325 silly vacuum-fs quitting because other entries in e:\gitProjects\angular.ashishpathak.io\node_modules
+326 verbose tar unpack C:\Users\Professional\AppData\Roaming\npm-cache\typescript\1.8.0\package.tgz
+327 verbose tar unpacking to e:\gitProjects\angular.ashishpathak.io\node_modules\typescript
+328 silly gentlyRm e:\gitProjects\angular.ashishpathak.io\node_modules\typescript is being purged
+329 verbose gentlyRm don't care about contents; nuking e:\gitProjects\angular.ashishpathak.io\node_modules\typescript
+330 silly gunzTarPerm modes [ '777', '666' ]
+331 silly gunzTarPerm extractEntry package.json
+332 silly gunzTarPerm extractEntry .npmignore
+333 silly gunzTarPerm extractEntry README.md
+334 silly gunzTarPerm extractEntry ThirdPartyNoticeText.txt
+335 silly gunzTarPerm extractEntry AUTHORS.md
+336 silly gunzTarPerm extractEntry CONTRIBUTING.md
+337 silly gunzTarPerm extractEntry CopyrightNotice.txt
+338 silly gunzTarPerm extractEntry LICENSE.txt
+339 silly gunzTarPerm extractEntry bin/tsc
+340 silly gunzTarPerm extractEntry bin/tsserver
+341 silly gunzTarPerm extractEntry lib/README.md
+342 silly gunzTarPerm extractEntry lib/typescript.js
+343 silly gunzTarPerm extractEntry lib/tsserver.js
+344 silly gunzTarPerm extractEntry lib/tsc.js
+345 silly gunzTarPerm extractEntry lib/typescriptServices.js
+346 silly gunzTarPerm extractEntry lib/lib.d.ts
+347 silly gunzTarPerm extractEntry lib/lib.dom.d.ts
+348 silly gunzTarPerm extractEntry lib/lib.es7.d.ts
+349 silly gunzTarPerm extractEntry lib/lib.core.d.ts
+350 silly gunzTarPerm extractEntry lib/lib.webworker.d.ts
+351 silly gunzTarPerm extractEntry lib/lib.es6.d.ts
+352 silly gunzTarPerm extractEntry lib/lib.core.es7.d.ts
+353 silly gunzTarPerm extractEntry lib/typescript.d.ts
+354 silly gunzTarPerm extractEntry lib/lib.core.es6.d.ts
+355 silly gunzTarPerm extractEntry lib/typescriptServices.d.ts
+356 silly gunzTarPerm extractEntry lib/lib.scriptHost.d.ts
+357 info preinstall typescript@1.8.0
+358 silly install resolved []
+359 verbose about to build e:\gitProjects\angular.ashishpathak.io\node_modules\typescript
+360 info build e:\gitProjects\angular.ashishpathak.io\node_modules\typescript
+361 verbose linkStuff [ false,
+361 verbose linkStuff   false,
+361 verbose linkStuff   false,
+361 verbose linkStuff   'e:\\gitProjects\\angular.ashishpathak.io\\node_modules' ]
+362 info linkStuff typescript@1.8.0
+363 verbose linkBins typescript@1.8.0
+364 verbose link bins [ { tsc: './bin/tsc', tsserver: './bin/tsserver' },
+364 verbose link bins   'e:\\gitProjects\\angular.ashishpathak.io\\node_modules\\.bin',
+364 verbose link bins   false ]
+365 verbose linkMans typescript@1.8.0
+366 verbose rebuildBundles typescript@1.8.0
+367 info install typescript@1.8.0
+368 info postinstall typescript@1.8.0
+369 verbose unlock done using C:\Users\Professional\AppData\Roaming\npm-cache\_locks\typescript-ff255266f1972857.lock for e:\gitProjects\angular.ashishpathak.io\node_modules\typescript
+370 verbose stack Error: zone.js@0.5.11 postinstall: `tsd install`
+370 verbose stack Exit status 1
+370 verbose stack     at EventEmitter.<anonymous> (c:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+370 verbose stack     at EventEmitter.emit (events.js:110:17)
+370 verbose stack     at ChildProcess.<anonymous> (c:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+370 verbose stack     at ChildProcess.emit (events.js:110:17)
+370 verbose stack     at maybeClose (child_process.js:1015:16)
+370 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+371 verbose pkgid zone.js@0.5.11
+372 verbose cwd e:\gitProjects\angular.ashishpathak.io
+373 error Windows_NT 6.3.9600
+374 error argv "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update"
+375 error node v0.12.2
+376 error npm  v2.7.4
+377 error code ELIFECYCLE
+378 error zone.js@0.5.11 postinstall: `tsd install`
+378 error Exit status 1
+379 error Failed at the zone.js@0.5.11 postinstall script 'tsd install'.
+379 error This is most likely a problem with the zone.js package,
+379 error not with npm itself.
+379 error Tell the author that this fails on your system:
+379 error     tsd install
+379 error You can get their info via:
+379 error     npm owner ls zone.js
+379 error There is likely additional logging output above.
+380 verbose exit [ 1, true ]
+381 verbose unbuild node_modules\zone.js
+382 info preuninstall zone.js@0.5.11
+383 info uninstall zone.js@0.5.11
+384 verbose unbuild rmStuff zone.js@0.5.11 from e:\gitProjects\angular.ashishpathak.io\node_modules
+385 info postuninstall zone.js@0.5.11
+386 silly gentlyRm e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js is being purged from base e:\gitProjects\angular.ashishpathak.io
+387 verbose gentlyRm don't care about contents; nuking e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+388 silly vacuum-fs purging e:\gitProjects\angular.ashishpathak.io\node_modules\zone.js
+389 silly vacuum-fs quitting because other entries in e:\gitProjects\angular.ashishpathak.io\node_modules
