@@ -1,5 +1,4 @@
 System.register(['angular2/platform/browser', './list.component'], function(exports_1) {
-    "use strict";
     var browser_1, list_component_1;
     return {
         setters:[

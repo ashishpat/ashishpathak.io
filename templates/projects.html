@@ -1,0 +1,18 @@
+<section id="projects">
+    <h2><strong>Projects</strong></h2>
+    <br>
+    <div class="project_item" *ngFor="#project of projects">
+        <p>
+            <strong>{{project.title}}</strong>
+            <br>
+            {{project.date}}
+        </p>
+        <hr/>
+        <p>{{project.description}}</p>
+        <p style="font-size: 1.3em;">
+            <a href={{project.link}} title={{project.linkTitle}}>
+                <strong>{{project.link}}</strong>
+            </a>
+        </p>
+    </div>
+</section>
