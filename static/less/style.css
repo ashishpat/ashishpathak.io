@@ -8,7 +8,7 @@ section {
   margin-bottom: 10%;
   padding-top: 2%;
 }
-section div.project-item {
+div.project-item {
   margin-bottom: 10%;
 }
 @media (min-width: 768px) {
